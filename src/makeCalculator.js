@@ -20,25 +20,25 @@ function makeCalculator() {
     },
 
     add(num) {
-      this.result = this.result + num;
+      this.result += num;
 
       return this;
     },
 
     subtract(num) {
-      this.result = this.result - num;
+      this.result -= num;
 
       return this;
     },
 
     multiply(num) {
-      this.result = this.result * num;
+      this.result *= num;
 
       return this;
     },
 
     divide(num) {
-      this.result = this.result / num;
+      this.result /= num;
 
       return this;
     },
